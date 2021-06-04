@@ -64,7 +64,10 @@ And i will open the Makefile to add the home directory to my  system call to the
 Open the Makefile with the following command.
 
 "nano Makefile" and i will search for core-y it will apper in the second time of searching . We did the search to see this  "kernel/ certs/ mm/ fs/ ipc/ security/ crypto/ block/" 
-I will add my home directory called Moamer . 
+I will add my home directory called Moamer .  
+
+![Screenshot from 2021-06-04 09-56-17](https://user-images.githubusercontent.com/77538165/120837357-10182380-c513-11eb-98f3-951b45b9772e.png)
+
 
 
 
@@ -173,6 +176,11 @@ Run and you see
 
 ![Screenshot from 2021-06-04 08-25-26](https://user-images.githubusercontent.com/77538165/120835720-291fd500-c511-11eb-9a45-5019a24c99a3.png)
 
+The print function : 
+
+
+
+![Screenshot from 2021-06-04 09-48-22](https://user-images.githubusercontent.com/77538165/120837433-29b96b00-c513-11eb-8152-c69db84cbd25.png)
 
 
 
