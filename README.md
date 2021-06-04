@@ -168,7 +168,11 @@ using nano moamer.c and put this program :
 Run and you see 
 
 
-![Screenshot from 2021-06-04 08-19-13](https://user-images.githubusercontent.com/77538165/120835555-ef4ece80-c510-11eb-9416-24b0f9a2b2f5.png)
+![Screenshot from 2021-06-04 08-25-26](https://user-images.githubusercontent.com/77538165/120835720-291fd500-c511-11eb-9a45-5019a24c99a3.png)
+
+
+
+
 
 
  
