@@ -55,8 +55,8 @@ Now i will create a makefile      "nano Moamer/Makefile"
 And write "obj-y := Moamer.c" 
 
 
-![Screenshot from 2021-06-04 07-37-16](https://user-images.githubusercontent.com/77538165/120832656-5ec2bf00-c50d-11eb-99be-a057b85b31f3.png) 
-]
+![Screenshot from 2021-06-04 09-55-38](https://user-images.githubusercontent.com/77538165/120837187-e19a4880-c512-11eb-9add-65cf59a2bdf2.png)
+
 
 And i will open the Makefile to add the home directory to my  system call to the main Makefile of the kernel.
  
