@@ -46,6 +46,9 @@ in this file write a program
     printk("I am Jihan Jasper Al-rashid.\n");
     return 0;
     }
+    
+    ![Screenshot from 2021-06-04 09-48-22](https://user-images.githubusercontent.com/77538165/120837131-d2b39600-c512-11eb-8200-5550652e5736.png)
+
 
 Now i will create a makefile      "nano Moamer/Makefile" 
 
