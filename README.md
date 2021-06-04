@@ -144,20 +144,33 @@ using nano moamer.c and put this program :
 
         if(activity < 0)
         {
-            perror("Sorry, Jasper. Your system call appears to have failed.");
+            perror("Sorry Try again .");
         }
 
         else
         {
-            printf("Congratulations, Jasper! Your system call is functional. Run the command dmesg in the terminal and find out!\n");
+            printf("Congrats The system call added\n");
         }
 
         return 0;
     }
  
  
- ![Screenshot from 2021-06-04 08-17-32](https://user-images.githubusercontent.com/77538165/120835218-810a0c00-c510-11eb-8149-4ab50b8a399e.png)
+ ![Screenshot from 2021-06-04 08-17-32](https://user-images.githubusercontent.com/77538165/120835218-810a0c00-c510-11eb-8149-4ab50b8a399e.png) 
  
+ Now compile the program by usin **gcc** 
+ 
+
+**gcc -o moamer moamer.c**
+
+
+
+Run and you see 
+
+
+![Screenshot from 2021-06-04 08-19-13](https://user-images.githubusercontent.com/77538165/120835555-ef4ece80-c510-11eb-9416-24b0f9a2b2f5.png)
+
+
  
  
 
