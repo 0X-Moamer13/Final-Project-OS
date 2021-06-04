@@ -96,7 +96,18 @@ And  find out how many logical cores you have. in my machine um using 2
 Compile the kernel's source code. : by "make -j2" 
 
 
-![Screenshot from 2021-06-04 07-52-06](https://user-images.githubusercontent.com/77538165/120834672-cf6adb00-c50f-11eb-9f23-f992649f7177.png)
+![Screenshot from 2021-06-04 07-52-06](https://user-images.githubusercontent.com/77538165/120834672-cf6adb00-c50f-11eb-9f23-f992649f7177.png) 
+
+
+Prepare the installer of the kernel.By using  "sudo make modules_install -j2"
+
+And Install the kernel. 
+
+
+![Screenshot from 2021-06-04 08-03-49](https://user-images.githubusercontent.com/77538165/120834798-fe814c80-c50f-11eb-8d81-49f45457ae99.png)
+
+
+
 
 
 
