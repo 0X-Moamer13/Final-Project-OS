@@ -60,9 +60,50 @@ And i will open the Makefile to add the home directory to my  system call to the
  
 Open the Makefile with the following command.
 
-nano Makefile
+"nano Makefile" and i will search for core-y it will apper in the second time of searching . We did the search to see this  "kernel/ certs/ mm/ fs/ ipc/ security/ crypto/ block/" 
+I will add my home directory called Moamer . 
 
 
 
+And I will open the header file with the following command.
+
+""nano include/linux/syscalls.h""
+
+ to add a corresponding function prototype for my system call to the header file of system calls.
+
+Search for endif and put "asmlinkage long sys_Moamer(void);" above it . 
+
+
+![Screenshot from 2021-06-04 07-43-40](https://user-images.githubusercontent.com/77538165/120833899-cf1e1000-c50e-11eb-9a61-35a5c5faca42.png) 
+
+Add my system call to the kernel's system call table. By using "nano arch/x86/entry/syscalls/syscall_64.tbl" command  Note: Um 64bit if u 32bit just put 32 instead of 64. 
+
+ I will navigate to the bottom of it even  find a series of x32 system calls.  I will put 
+ 
+ "440     common  Moamer                sys_Moamer"  "above the section 32 "
+ 
+ Now Installition: 
+ 
+ I will install the new kernel and prepare your operating system to boot into it.
+
+
+First : Configure the kernel.   use "make menuconfig" 
+
+Use Tab to move between options. Make no changes to keep it in default settings.  
+
+And  find out how many logical cores you have. in my machine um using 2 
+
+Compile the kernel's source code. : by "make -j2" 
+
+
+![Screenshot from 2021-06-04 07-52-06](https://user-images.githubusercontent.com/77538165/120834672-cf6adb00-c50f-11eb-9f23-f992649f7177.png)
+
+
+
+ 
+ 
+
+
+ 
 
 
