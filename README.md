@@ -43,11 +43,14 @@ in this file write a program
       SYSCALL_DEFINE0(identity)
 
       {
-    printk("I am Jihan Jasper Al-rashid.\n");
+    printk("Joker.\n");
     return 0;
     }
     
     ![Screenshot from 2021-06-04 09-48-22](https://user-images.githubusercontent.com/77538165/120837131-d2b39600-c512-11eb-8200-5550652e5736.png)
+
+
+  ![2](https://user-images.githubusercontent.com/77538165/120903019-0d3f3080-c5f0-11eb-9416-fc974766527a.png)
 
 
 Now i will create a makefile      "nano Moamer/Makefile" 
@@ -185,7 +188,7 @@ The print function :
 
 
 
-![Screenshot from 2021-06-04 09-48-22](https://user-images.githubusercontent.com/77538165/120837433-29b96b00-c513-11eb-8152-c69db84cbd25.png)
+ ![1](https://user-images.githubusercontent.com/77538165/120903028-234cf100-c5f0-11eb-8937-15e45af9b84a.png)
 
 
 
