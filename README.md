@@ -97,6 +97,11 @@ First : Configure the kernel.   use "make menuconfig"
 
 Use Tab to move between options. Make no changes to keep it in default settings.  
 
+
+![Screenshot from 2021-06-04 12-42-17](https://user-images.githubusercontent.com/77538165/120893770-6ba0ea80-c5c1-11eb-9159-a7404e771f43.png)
+
+
+
 And  find out how many logical cores you have. in my machine um using 2 
 
 Compile the kernel's source code. : by "make -j2" 
