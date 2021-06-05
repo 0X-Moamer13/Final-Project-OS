@@ -15,7 +15,7 @@ Steps to how to add a system call :
 
 1-Make my Linux ubunto up to date by 
 
-" sudo apt-get update && apt-get update"   
+" sudo apt-get update && apt-get upgrade"   
 
 2- Install all packeges that i will use to compile Kernal by : 
 
