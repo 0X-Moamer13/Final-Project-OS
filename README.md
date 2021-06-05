@@ -47,7 +47,6 @@ in this file write a program
     return 0;
     }
     
-    ![Screenshot from 2021-06-04 09-48-22](https://user-images.githubusercontent.com/77538165/120837131-d2b39600-c512-11eb-8200-5550652e5736.png)
 
 
   ![2](https://user-images.githubusercontent.com/77538165/120903019-0d3f3080-c5f0-11eb-9416-fc974766527a.png)
@@ -58,7 +57,7 @@ Now i will create a makefile      "nano Moamer/Makefile"
 And write "obj-y := Moamer.c" 
 
 
-![Screenshot from 2021-06-04 09-55-38](https://user-images.githubusercontent.com/77538165/120837187-e19a4880-c512-11eb-9add-65cf59a2bdf2.png)
+
 
 
 And i will open the Makefile to add the home directory to my  system call to the main Makefile of the kernel.
@@ -101,7 +100,8 @@ First : Configure the kernel.   use "make menuconfig"
 Use Tab to move between options. Make no changes to keep it in default settings.  
 
 
-![Screenshot from 2021-06-04 12-42-17](https://user-images.githubusercontent.com/77538165/120893770-6ba0ea80-c5c1-11eb-9159-a7404e771f43.png)
+![me](https://user-images.githubusercontent.com/77538165/120903061-6f983100-c5f0-11eb-836c-abdfaa16c8b4.png)
+
 
 
 
