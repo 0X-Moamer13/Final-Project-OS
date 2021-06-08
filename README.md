@@ -113,7 +113,7 @@ Use Tab to move between options. Make no changes to keep it in default settings.
 
 And  find out how many logical cores you have. in my machine um using 2 
 
-Compile the kernel's source code. : by "make -j2" 
+          Compile the kernel's source code. : by "make -j2" 
 
 
 ![Screenshot from 2021-06-04 07-52-06](https://user-images.githubusercontent.com/77538165/120834672-cf6adb00-c50f-11eb-9f23-f992649f7177.png) 
@@ -128,7 +128,7 @@ And Install the kernel.
 
 
 
-Update the bootloader of the operating system with the new kernel. by using "sudo update-grub"
+          Update the bootloader of the operating system with the new kernel. by using "sudo update-grub"
 
 
 Now : I will  reboot my computer.
@@ -150,17 +150,17 @@ using nano moamer.c and put this program :
     #include <string.h>
     #include <errno.h>
 
-    #define __NR_identity 440
+    #define __NR_Moamer 440
 
-    long identity_syscall(void)
+    long Moamer_syscall(void)
     {
-        return syscall(__NR_identity);
+        return syscall(__NR_Moamer);
     }
 
     int main(int argc, char *argv[])
     {
         long activity;
-        activity = identity_syscall();
+        activity = Moamer_syscall();
 
         if(activity < 0)
         {
@@ -176,12 +176,11 @@ using nano moamer.c and put this program :
     }
  
  
- ![Screenshot from 2021-06-04 08-17-32](https://user-images.githubusercontent.com/77538165/120835218-810a0c00-c510-11eb-8149-4ab50b8a399e.png) 
  
  Now compile the program by usin **gcc** 
  
 
-**gcc -o moamer moamer.c**
+               **gcc -o moamer moamer.c**
 
 
 
